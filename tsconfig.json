@@ -14,13 +14,18 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
+    "experimentalDecorators": true,
+    "jsxImportSource": "react-jsx",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "declare module": "*.png",
+    
   },
   "include": [
-    "src"
+    "src",
+    
   ]
 }
